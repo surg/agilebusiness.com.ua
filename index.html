@@ -1,27 +1,42 @@
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+	<link href="http://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 	
 	<style type="text/css">
 		#mc_embed_signup{background:#fff; clear:left; margin:20px 0 40px 0; }
 		
+		#mc_embed_signup .mc-field-group input
+		{
+			display:inline-block !important;
+		}
+		
 		#mce-EMAIL
 		{
-			width:430px;
+			width:430px !important;
 			height:37px;
 			border:1px solid #999999;
 			border-radius:3px;
 			padding:0 7px;
 		}
-		
+		#mc_embed_signup .button
+		{
+			line-height:17px !important;
+			height: 37px;
+		}
+		.mc-field-group
+		{
+			text-align:center;
+			padding-bottom:0 !important;
+		}
 		#mc-embedded-subscribe
 		{
+			line-height:30px;
 			height:36px;
 			width:135px !important;
 			border:0 !important;
 			border-radius:2px;
-			background:#ff2f1f;
+			background-color:#ff2f1f !important;
 			color:#ffffff;
 			font-size:17px;
 			font-family:OpenSansRegular;
@@ -110,11 +125,6 @@
 			font-family:OpenSansRegular;
 		}
 		
-		.sl3Marg .title 
-		{
-			font-size:18px;
-		}
-		
 		.sl2Marg
 		{
 			font-size:18px;
@@ -126,7 +136,7 @@
 		{
 			font-size:18px;
 			line-height:23px;
-			padding-top:60px;
+			padding-top:40px;
 		}
 		
 		@font-face {
@@ -171,7 +181,7 @@
 			font-family:OpenSansRegular;
 			font-size: 36px;
 			margin-left:4px;
-			margin-bottom: -10px;
+			margin-bottom: -7px;
 		}
 		.header .p2
 		{
@@ -207,6 +217,7 @@
 		{
 			margin-top:50px;
 			margin-bottom:50px;
+			font-family:OpenSansLight;
 		}
 		.footer .title
 		{
@@ -217,7 +228,10 @@
 			color:#000000;
 			text-decoration:none;
 		}
-		
+		.footer .separator
+		{
+			margin:0 15px;
+		}
 		.fCont
 		{
 			position:absolute;
@@ -230,6 +244,10 @@
 			width:18px;
 			height:18px;
 			background:url(img/f.png);
+			display:inline-block;
+			vertical-align:top;
+			background-size:cover;
+			background-repeat:no-repeat;
 		}
 		
 		.bottomLinks
@@ -248,19 +266,21 @@
 		<div class="row">
 			<img src="img/scr1.png" class="left">
 			<div class="right textColRight sl1Marg">
-				﻿Стремительно меняющийся мир создает новые вызовы и возможности для бизнеса. 
-				Уже через 5 лет финансы, телеком и другие сферы полностью изменятся. 
-				Лидеры понимают, что от скорости реакции на изменения зависит будущее их компании. 
-
-				Как стать более гибким? 
-				Как сочетать гибкость со стратегией, планированием, управлением бюджетами и ресурсами? 
+				Стремительно меняющийся мир создает новые вызовы и&nbsp;возможности для бизнеса.
+				Уже через 5&nbsp;лет финансы, телеком и&nbsp;другие сферы полностью изменятся.
+				Лидеры понимают, что от&nbsp;скорости реакции на&nbsp;изменения зависит будущее
+				их&nbsp;компании.<br/><br/>
+				Как стать более гибким? Как сочетать гибкость со&nbsp;стратегией, планированием,
+				управлением бюджетами и&nbsp;ресурсами?
 			</div>
 		</div>
 		<div class="clear"></div>
 		<div class="row">
 			<div class="left textColLeft sl2Marg">
 				<p class="title">Для кого</p>
-				Эта конференция поможет руководителям разного уровня разобраться в философии и практиках гибких подходов, узнать об опыте использования Agile в бизнесе и подчерпнуть идеи для развития.
+				Эта конференция поможет руководителям разного уровня разобраться
+				в&nbsp;философии и&nbsp;практиках гибких подходов, узнать об&nbsp;опыте
+				использования Agile в&nbsp;бизнесе и&nbsp;подчерпнуть идеи для развития.
 			</div>
 			<img src="img/scr2.png" class="right">
 		</div>
@@ -302,7 +322,7 @@
 			</form>
 			</div>
 		</div>
-		<div class="bottomLinks"><a href="http://scrumguides.com.ua">scrumguides.com.ua</a>   |   <a href="mailto:info@scrumguides.com">info@scrumguides.com</a>   |   +380 50 374-0438   |   <div class="fCont"><a href="https://www.facebook.com/Scrumguides/"><div class="f right"></div></a></div></div>
+		<div class="bottomLinks"><a href="http://scrumguides.com.ua">scrumguides.com.ua</a>   <span class="separator">|</span>   <a href="mailto:info@scrumguides.com">info@scrumguides.com</a>   <span class="separator">|</span>   +380 50 374-0438   <span class="separator">|</span>   <a href="https://www.facebook.com/Scrumguides/"><span class="f"> </span></a> </div>
 		
 		
 	</div>
